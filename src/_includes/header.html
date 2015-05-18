@@ -1,0 +1,38 @@
+
+<header class="header">
+  <div class="header-content">
+
+
+    <div class="logo logo--header">
+      <svg class="icon">
+        <use xlink:href="{{ site.urlbase }}/assets/img/graphics.svg#logo"></use>
+      </svg>
+    </div>
+    <!-- end header-logo -->
+
+    <div class="menu menu--header">
+      <ul class="menu__list">
+        {% for item in site.data.mainnav %}
+          {% assign menu = item[1] %}
+          {% assign active = '' %}
+          {% assign path = page.url|replace: 'index.html', '' %}
+          {% assign path_part = path|remove_first: '/'| split: '/'| first|prepend: '/'| append: '/' %}
+
+          {% if path == menu.path %}
+            {% assign active = '--active' %}
+          {% elsif menu.path == path_part or menu.match contains path_part %}
+            {% assign active = '--active' %}
+          {% endif %}
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}{{ menu.path }}" class="menu__btn menu__btn{{ active }}">
+            {{ menu.title }}
+          </a>
+        </li>
+        <!-- end menu__item -->
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- end header-menu -->
+
+  </div>
+</header>

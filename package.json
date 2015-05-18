@@ -1,0 +1,50 @@
+{
+  "name": "zaralab",
+  "private": true,
+  "version": "0.0.1",
+  "description": "zaralab website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sisomollov/zaralab.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sisomollov/zaralab/issues"
+  },
+  "keywords": [
+    "zaralab"
+  ],
+  "homepage": "https://github.com/sisomollov/zaralab",
+  "author": "SiSo Mollov",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "browser-sync": "^2.7.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-cache": "^0.2.9",
+    "gulp-cached": "^1.1.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-filter": "^2.0.2",
+    "gulp-gzip": "^1.1.0",
+    "gulp-htmlmin": "^1.1.1",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.10.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-rev-replace": "^0.4.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-shell": "^0.4.1",
+    "gulp-size": "^1.2.1",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uncss": "^1.0.1",
+    "gulp-useref": "^1.1.2",
+    "jshint-stylish": "^1.0.2",
+    "merge-stream": "^0.1.7"
+  },
+  "engines": {
+    "node": ">0.10.0"
+  }
+}

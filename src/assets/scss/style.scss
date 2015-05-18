@@ -1,0 +1,40 @@
+
+// Susy configuration
+$susy: (
+  output: isolate,
+  container: 1024px,
+  columns: 12,
+  gutters: 28px/57px,
+  gutter-position: inside
+);
+
+// Colors
+$swatch-01: #F5F5F5;
+$swatch-02: #EDEDED;
+$swatch-03: #494D4C;
+$swatch-04: #32CCB6;
+$swatch-05: #595959;
+$swatch-06: #808080;
+
+
+// Mixins
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@import
+  "../../../vendor/_bower_components/modularized-normalize-scss/normalize",
+  "../../../vendor/_bower_components/susy/sass/susy",
+  "bebas-font",
+  "base",
+  "icon",
+  "header",
+  "logos",
+  "menus",
+  "page",
+  "home",
+  "pygments-github";

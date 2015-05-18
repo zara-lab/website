@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  height: 120px;
+  background-color: $swatch-02;
+}
+
+.header-content {
+  @include container;
+  position: relative;
+}

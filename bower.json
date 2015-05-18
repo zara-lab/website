@@ -1,0 +1,20 @@
+{
+  "name": "zaralab",
+  "version": "1.0.0",
+  "description": "zaralab",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pygments": "~2.0"
+  },
+  "devDependencies": {
+    "susy": "~2.2.3",
+    "modularized-normalize-scss": "~3.0.3"
+  }
+}

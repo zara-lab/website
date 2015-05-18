@@ -1,0 +1,10 @@
+.home-info {
+  @include span(6 of 12);
+  padding-top: 110px;
+}
+
+.home-graphic {
+  @include span(6 of 12);
+  height: 503px;
+  margin-top: 62px;
+}

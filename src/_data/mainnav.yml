@@ -1,0 +1,15 @@
+home:
+  title: Начало
+  path: /
+events:
+  title: Събития
+  path: /events/
+blog:
+  title: Блог
+  path: /blog/
+  match:
+    - "/general/"
+    - "/misc/"
+contact:
+  title: Контакти
+  path: /contact/
