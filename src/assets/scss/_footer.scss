@@ -1,0 +1,139 @@
+
+// Block
+.footer {
+  position: absolute;
+  width: 100%;
+  height: rem-calc(277px);
+  bottom: 0;
+  left: 0;
+  background-color: $color-01;
+  background-image: url(../img/footer-pattern.png);
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+// Block
+// logo image size: 148px / 100px
+.f-partners {
+  position: relative;
+  width: 100%;
+  height: rem-calc(137px);;
+  border-bottom: 1px solid $color-03;
+  margin-bottom: rem-calc(10px);
+
+  // Element
+  &-list {
+    @include clearfix;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  // Element
+  &-item {
+    position: relative;
+    float: left;
+    width: rem-calc(188px);
+    height: rem-calc(124px);
+
+    &-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+
+}
+
+
+// Block
+.f-logo {
+  float: left;
+  padding: 10px 0 10px 20px;
+}
+
+// Block
+.f-nav {
+  float: left;
+  width: rem-calc(461px);
+  padding: 10px 0 10px 90px;
+}
+
+// Block
+.f-social {
+  @include clearfix;
+  float: left;
+  width: rem-calc(344px);
+  padding: 10px 20px 10px 0;
+}
+
+// Block
+.f-copyright {
+  float: left;
+  width: 100%;
+  padding: 27px 20px 22px;
+  font-size: rem-calc(12px);
+
+  // Element
+  &-left {
+    display: inline-block;
+    float: left;
+    color: $color-02;
+  }
+
+  // Element
+  &-right {
+    display: inline-block;
+    float: right;
+    color: $color-03;
+  }
+}
+
+// Block
+.f-list {
+  @include clearfix;
+
+  // Element
+  &-item {
+    position: relative;
+    float: left;
+    margin-left: rem-calc(16px);
+
+    &::after {
+      content: " ";
+      display: block;
+      position: absolute;
+      width: rem-calc(4px);
+      height: rem-calc(4px);
+      top: rem-calc(9px);
+      left: rem-calc(-10px);
+      border-radius: rem-calc(2px);
+      background-color: $color-green;
+    }
+
+    // Modifier
+    &-first {
+      margin-left: 0;
+      &::after { display: none; }
+    }
+  }
+
+  // Element
+  &-link {
+    font-size: rem-calc(14px);
+    color: $color-02;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+
+  // Modifier
+  &-social {
+    float: right;
+    display: inline-block;
+  }
+}

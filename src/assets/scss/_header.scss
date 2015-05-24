@@ -1,6 +1,11 @@
 // Block
 // -----
 .header {
+  position: absolute;
+  width: 100%;
+  height: rem-calc(134px);
+  top: 0;
+  left: 0;
   background-color: $color-01;
   background-image: url(../img/header-pattern.png);
   background-repeat: repeat-x;
@@ -19,6 +24,7 @@
 .header-logo {
   display: inline-block;
   padding: 32px 0 33px;
+  padding-left: 20px;
 }
 
 // Block
@@ -28,6 +34,7 @@
   display: inline-block;
   float: right;
   padding-top: rem-calc(55px);
+  padding-right: 20px;
 }
 
 // Element
@@ -42,6 +49,10 @@
 .h-nav-block {
   float: left;
   margin-right: 30px;
+
+  &-last {
+    margin-right: 0;
+  }
 }
 
 // Element subelement of h-nav-block
@@ -49,7 +60,6 @@
 .h-nav-link {
   display: block;
 
-  font-family: 'Fira Sans' sans-serif;
   line-height: rem-calc(19px);
   text-decoration: none;
   color: $color-02;
