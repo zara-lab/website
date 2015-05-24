@@ -6,7 +6,9 @@ $font-size: 16px;
 
 // Colors
 // ------
-
+$color-01: #2E2E2E;
+$color-02: #ECEDEB;
+$color-green: #59A426;
 
 // Mixins and Functions
 // --------------------
@@ -38,4 +40,6 @@ $font-size: 16px;
 @import
   "../../../vendor/_bower_components/modularized-normalize-scss/normalize",
   "base",
+  "container",
+  "header",
   "pygments-github";

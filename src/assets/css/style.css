@@ -352,6 +352,65 @@ th,
 td {
   padding: 0; }
 
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #ECEDEB;
+  font-family: 'Fira Sans' sans-serif; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 58.75rem;
+  margin: 0 auto; }
+
+.header {
+  background-color: #2E2E2E;
+  background-image: url(../img/header-pattern.png);
+  background-repeat: repeat-x;
+  background-position: left 6px; }
+
+.header-topline {
+  height: 0.25rem;
+  background-color: #59A426; }
+
+.header-logo {
+  display: inline-block;
+  padding: 32px 0 33px; }
+
+.header-nav {
+  /* @include clearfix; */
+  display: inline-block;
+  float: right;
+  padding-top: 3.4375rem; }
+
+.header-nav-list {
+  overflow: hidden; }
+  .header-nav-list:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+.h-nav-block {
+  float: left;
+  margin-right: 30px; }
+
+.h-nav-link {
+  display: block;
+  font-family: 'Fira Sans' sans-serif;
+  line-height: 1.1875rem;
+  text-decoration: none;
+  color: #ECEDEB; }
+  .h-nav-link:hover {
+    color: #59A426; }
+
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com

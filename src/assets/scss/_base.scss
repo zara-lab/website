@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size;
+}
+
+body {
+  background-color: $color-02;
+  font-family: 'Fira Sans' sans-serif;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

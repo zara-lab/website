@@ -1,0 +1,60 @@
+// Block
+// -----
+.header {
+  background-color: $color-01;
+  background-image: url(../img/header-pattern.png);
+  background-repeat: repeat-x;
+  background-position: left 6px;
+}
+
+// Element
+// -------
+.header-topline {
+  height: rem-calc(4px);
+  background-color: $color-green;
+}
+
+// Element
+// -------
+.header-logo {
+  display: inline-block;
+  padding: 32px 0 33px;
+}
+
+// Block
+// -------
+.header-nav {
+  /* @include clearfix; */
+  display: inline-block;
+  float: right;
+  padding-top: rem-calc(55px);
+}
+
+// Element
+// -------
+.header-nav-list {
+  @include clearfix;
+  overflow: hidden;
+}
+
+// Element
+// -------
+.h-nav-block {
+  float: left;
+  margin-right: 30px;
+}
+
+// Element subelement of h-nav-block
+// -------
+.h-nav-link {
+  display: block;
+
+  font-family: 'Fira Sans' sans-serif;
+  line-height: rem-calc(19px);
+  text-decoration: none;
+  color: $color-02;
+
+  &:hover {
+    color: $color-green;
+  }
+}
