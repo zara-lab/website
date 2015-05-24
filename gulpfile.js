@@ -54,6 +54,8 @@ gulp.task("jekyll:prod", $.shell.task("jekyll build --config _config.yml,_config
 gulp.task("styles", function() {
   // Looks at the style.scss file for what to include and creates a style.css file
   return gulp.src("src/assets/scss/style.scss")
+    // Create sourcemaps
+    .pipe($.sourcemaps.init())
     .pipe($.sass())
     // AutoPrefix your CSS so it works between browsers
     .pipe($.autoprefixer("last 1 version", {
@@ -61,6 +63,8 @@ gulp.task("styles", function() {
     }))
     // Directory your CSS file goes to
     .pipe(gulp.dest("src/assets/css/"))
+    // Write sourcemaps for development env
+    .pipe($.sourcemaps.write())
     .pipe(gulp.dest("dev/assets/css/"))
     // Outputs the size of the CSS file
     .pipe($.size({

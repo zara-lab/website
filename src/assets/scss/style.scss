@@ -1,4 +1,8 @@
 
+// Settings
+// --------
+$font-size: 16px;
+
 
 // Colors
 // ------
@@ -21,7 +25,7 @@
 
 // Calculate rems from a px value
 // ------------------------------
-@function rem-calc($px, $base-val: $base-px-default) {
+@function rem-calc($px, $base-val: $font-size) {
 	@if not unitless($px) {
 		$px: strip-units($px);
 	}
