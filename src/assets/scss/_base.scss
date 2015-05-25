@@ -29,4 +29,9 @@ p {
 a {
   text-decoration: none;
   color: $color-green;
+
+  &:hover {
+    color: lighten($color-green, 8%);
+    text-decoration: underline;
+  }
 }

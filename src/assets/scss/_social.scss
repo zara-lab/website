@@ -1,0 +1,56 @@
+
+// Block
+.social-address {
+  @include clearfix;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+
+  // Element
+  &-icon {
+    float: left;
+    padding-top: rem-calc(22px);
+    margin-right: rem-calc(12px);
+    fill: $color-03;
+  }
+
+  // Element
+  &-heading {
+    display: inline-block;
+  }
+}
+
+// Block
+.social {
+  padding-top: 70px;
+
+  // Element
+  &-grid {
+    @include clearfix;
+    padding-left: rem-calc(119px);
+  }
+}
+
+// Block
+// it's part of .social
+.s-item {
+  float: left;
+  margin-right: 70px;
+
+  // Element
+  &-link {
+    display: block;
+    width: rem-calc(138px);
+    height: rem-calc(138px);
+    padding-top: rem-calc(39px);
+    padding-left: rem-calc(39px);
+    background-color: $color-06;
+    border-radius: rem-calc(138px / 2);
+    fill: $color-04;
+
+    &:hover {
+      background-color: $color-green;
+    }
+  }
+}
