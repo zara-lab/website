@@ -47,10 +47,45 @@ h3 {
   color: $color-03;
 }
 
+// Block
 .text {
   padding-top: 10px;
 
   font-size: rem-calc(14px);
   line-height: rem-calc(22px);
   color: $color-05;
+
+  // Modifier
+  &-new-paragraph {
+    padding-top: 50px;
+  }
+
+  // Modifier
+  &-center { text-align: center; }
+}
+
+// Block
+.text-list {
+  padding: 10px 0 0 50px;
+
+  // Element
+  &-item {
+    position: relative;
+    padding-bottom: rem-calc(2px);
+    font-size: rem-calc(14px);
+    line-height: rem-calc(22px);
+    color: $color-05;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: rem-calc(6px);
+      height: rem-calc(6px);
+      top: rem-calc(8px);
+      left: rem-calc(-18px);
+      background-color: $color-green;
+      border-radius: rem-calc(3px);
+    }
+  }
 }
