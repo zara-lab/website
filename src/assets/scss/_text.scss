@@ -11,6 +11,7 @@ h1 {
   color: $color-03;
   text-align: center;
   line-height: rem-calc(54px);
+  letter-spacing: -0.03rem;
 
   &::after {
     content: " ";

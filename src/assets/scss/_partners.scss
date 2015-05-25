@@ -1,0 +1,41 @@
+// Block
+.partners {
+  padding-top: 50px;
+
+  // Element
+  &-grid {
+    @include clearfix;
+    overflow: hidden;
+  }
+}
+
+// Block
+// it's part of the .partners-grid element
+// Default image size 126px / 70px
+.p-item {
+  float: left;
+  box-shadow: 1px 1px 0 $color-06;
+
+  // Element
+  &-link {
+    position: relative;
+    display: block;
+    width: rem-calc(146px);
+    height: rem-calc(146px);
+
+    &:hover {
+      background-color: $color-06;
+    }
+  }
+
+  // Element
+  &-img {
+    position: absolute;
+    max-width: 126px;
+    max-height: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
