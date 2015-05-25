@@ -1,0 +1,55 @@
+h1 {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding-top: rem-calc(50px);
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-transform: uppercase;
+  font-weight: 500;
+  color: $color-03;
+  text-align: center;
+  line-height: rem-calc(54px);
+
+  &::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: rem-calc(1px);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $color-green;
+  }
+}
+
+h2 {
+  margin: 0;
+  padding-top: rem-calc(20px);
+
+  font-size: rem-calc(16px);
+  font-weight: 400;
+  color: $color-05;
+  text-align: center;
+  line-height: rem-calc(24px);
+}
+
+h3 {
+  margin: 0;
+  padding-top: 50px;
+
+  font-size: rem-calc(18px);
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: $color-03;
+}
+
+.text {
+  padding-top: 10px;
+
+  font-size: rem-calc(14px);
+  line-height: rem-calc(22px);
+  color: $color-05;
+}

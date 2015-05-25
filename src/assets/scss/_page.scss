@@ -1,5 +1,6 @@
 // Block
 .page {
+  display: table-cell;
   height: 100%;
   padding-top: rem-calc(134px);
   padding-bottom: rem-calc(277px);
@@ -9,4 +10,9 @@
 .page-container {
   background-color: $color-04;
   height: 100%;
+}
+
+// Block
+.page-wrapper {
+  padding: 20px 178px 100px;
 }
