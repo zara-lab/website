@@ -710,6 +710,68 @@ h3 {
     .s-item-link:hover {
       background-color: #59A426; }
 
+.event {
+  padding-top: 3.125rem; }
+  .event:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .event-left {
+    float: left;
+    width: 12.9375rem;
+    padding-right: 0.9375rem; }
+  .event-right {
+    float: left;
+    width: 23.5625rem;
+    padding-left: 0.9375rem; }
+  .event-img {
+    width: 12rem;
+    height: 7.8125rem; }
+  .event-heading {
+    padding-top: 0; }
+
+.e-info {
+  padding-top: 0.75rem; }
+  .e-info:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .e-info-left {
+    float: left;
+    width: 13.1875rem;
+    padding-top: 0.5rem;
+    font-size: 0.75rem; }
+  .e-info-row {
+    overflow: hidden;
+    padding-bottom: 0.25rem; }
+    .e-info-row:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  .e-info-icon {
+    display: inline-block;
+    float: left;
+    fill: #4D4D4D; }
+  .e-info-txt {
+    margin-left: 1.25rem;
+    color: #A6A6A6; }
+  .e-info-btn {
+    display: inline-block;
+    padding: 16px 14px;
+    background-color: #59A426;
+    border-radius: 0.125rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: white; }
+    .e-info-btn:hover {
+      text-decoration: none;
+      color: white;
+      background-color: #6bc52e; }
+    .e-info-btn-past {
+      background-color: #A6A6A6; }
+      .e-info-btn-past:hover {
+        background-color: #8c8c8c; }
+
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com

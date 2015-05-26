@@ -1,0 +1,91 @@
+// Block
+.event {
+  @include clearfix;
+  padding-top: rem-calc(50px);
+
+  // Element
+  &-left {
+    float: left;
+    width: rem-calc(207px);
+    padding-right: rem-calc(15px);
+  }
+
+  // Element
+  &-right {
+    float: left;
+    width: rem-calc(377px);
+    padding-left: rem-calc(15px);
+  }
+
+  // Element
+  &-img {
+    width: rem-calc(192px);
+    height: rem-calc(125px);
+  }
+
+  // Element
+  &-heading {
+    padding-top: 0;
+  }
+}
+
+// Block
+.e-info {
+  @include clearfix;
+  padding-top: rem-calc(12px);
+
+  // Element
+  &-left {
+    float: left;
+    width: rem-calc(211px);
+    padding-top: rem-calc(8px);
+
+    font-size: rem-calc(12px);
+  }
+
+  // Element
+  &-row {
+    @include clearfix;
+    overflow: hidden;
+    padding-bottom: rem-calc(4px);
+  }
+
+  // Element
+  &-icon {
+    display: inline-block;
+    float: left;
+    fill: $color-03;
+  }
+
+  // Element
+  &-txt {
+    margin-left: rem-calc(20px);
+
+    color: $color-07;
+  }
+
+  // Element
+  &-btn {
+    display: inline-block;
+    padding: 16px 14px;
+    background-color: $color-green;
+    border-radius: rem-calc(2px);
+
+    font-size: rem-calc(16px);
+    line-height: rem-calc(20px);
+    color: white;
+
+    &:hover {
+      text-decoration: none;
+      color: white;
+      background-color: lighten($color-green, 8%);
+    }
+
+    // Modifier
+    &-past {
+      background-color: $color-07;
+      &:hover { background-color: darken($color-07, 10%); }
+    }
+  }
+
+}
