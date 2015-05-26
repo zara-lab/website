@@ -442,7 +442,8 @@ a {
   text-decoration: none;
   color: #ECEDEB; }
   .h-nav-link:hover {
-    color: #59A426; }
+    color: #59A426;
+    text-decoration: none; }
 
 .page {
   display: table-cell;
@@ -556,7 +557,8 @@ a {
   color: #ECEDEB;
   text-decoration: none; }
   .f-list-link:hover {
-    color: #59A426; }
+    color: #59A426;
+    text-decoration: none; }
 
 .f-list-social {
   float: right;
