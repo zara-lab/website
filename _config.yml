@@ -17,7 +17,7 @@ destination: dev
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
 author:
-  name: Pavel Ivanov
+  name: zaralab
   email: pivanov@mozilla.com
   twitter: ivanovpavel
 
