@@ -47,7 +47,7 @@ gulp.task("jekyll-rebuild", ["jekyll:dev"], function() {
 // Almost identical to the above task, but instead we load in the build configuration
 // that overwrites some of the settings in the regular configuration so that you
 // don"t end up publishing your drafts or future posts
-gulp.task("jekyll:prod", $.shell.task("jekyll build --config _config.yml,_config.build.yml"));
+gulp.task("jekyll:prod", $.shell.task("jekyll build --config _config.yml, _config.build.yml"));
 
 
 // Compiles the SASS files and moves them into the "assets/css" directory
@@ -79,17 +79,17 @@ gulp.task("styles", function() {
 
 // Optimizes the images that exists
 gulp.task("images", function() {
-  return gulp.src("src/assets/images/**")
-    .pipe($.changed("public/assets/images"))
+  return gulp.src("src/assets/img/**")
+    .pipe($.changed("public/assets/img"))
     .pipe($.imagemin({
       // Lossless conversion to progressive JPGs
       progressive: true,
       // Interlace GIFs for progressive rendering
       interlaced: true
     }))
-    .pipe(gulp.dest("public/assets/images"))
+    .pipe(gulp.dest("public/assets/img"))
     .pipe($.size({
-      title: "images"
+      title: "img"
     }));
 });
 

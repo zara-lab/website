@@ -4,7 +4,7 @@
  <title>ZaraLab Hackerspace</title>
  <link href="localhost:4000/atom.xml" rel="self"/>
  <link href="localhost:4000/"/>
- <updated>2015-05-18T20:59:40+03:00</updated>
+ <updated>2015-05-27T21:18:43+03:00</updated>
  <id>localhost:4000</id>
  <author>
    <name>Pavel Ivanov</name>
@@ -13,19 +13,19 @@
 
  
  <entry>
+   <title>Event Test 2</title>
+   <link href="localhost:4000/past_events/event-test2.html"/>
+   <updated>2015-05-25T10:00:00+03:00</updated>
+   <id>localhost:4000/past_events/event-test2</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
    <title>Event Test</title>
    <link href="localhost:4000/events/event-test.html"/>
-   <updated>2015-05-10T19:58:04+03:00</updated>
+   <updated>2015-05-10T10:00:00+03:00</updated>
    <id>localhost:4000/events/event-test</id>
-   <content type="html">&lt;h1&gt;Testing Events&lt;/h1&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+   <content type="html"></content>
  </entry>
  
  <entry>

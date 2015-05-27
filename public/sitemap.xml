@@ -2,15 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>localhost:4000/</loc>
-    <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+    <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
     <url>
+      <loc>localhost:4000/past_events/event-test2.html</loc>
+      
+        <lastmod>2015-05-25T10:00:00+03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
       <loc>localhost:4000/events/event-test.html</loc>
       
-        <lastmod>2015-05-10T19:58:04+03:00</lastmod>
+        <lastmod>2015-05-10T10:00:00+03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -37,7 +50,7 @@
   <url>
     <loc>localhost:4000/404.html</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -50,7 +63,7 @@
   <url>
     <loc>localhost:4000/atom.xml</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -63,7 +76,7 @@
   <url>
     <loc>localhost:4000/blog/index.html</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -74,9 +87,22 @@
   </url>
   
   <url>
-    <loc>localhost:4000/index.html</loc>
+    <loc>localhost:4000/donate/index.html</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>localhost:4000/partners/index.html</loc>
+    
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -89,7 +115,20 @@
   <url>
     <loc>localhost:4000/events/index.html</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>localhost:4000/index.html</loc>
+    
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -102,7 +141,7 @@
   <url>
     <loc>localhost:4000/contact/index.html</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -115,7 +154,7 @@
   <url>
     <loc>localhost:4000/sitemap.xml</loc>
     
-      <lastmod>2015-05-18T20:59:40+03:00</lastmod>
+      <lastmod>2015-05-27T21:18:43+03:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
